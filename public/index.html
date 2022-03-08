@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <main class="calculator">
+        <div class="current-number">0</div>
+
+        <div class="wide-buttons">
+        <button id="clear" name="clear" class="largebtn">Clear</button>
+        <button id="backspace" name="backspace" class="largebtn">Del</button>
+        </div>
+
+        <div class="buttons">
+            <button id="seven" class="number">7</button>
+            <button id="eight" class="number">8</button>
+            <button id="nine" class="number">9</button>
+            <button id="divide"  class="function">÷</button>
+
+            <button id="four" class="number">4</button>
+            <button id="five" class="number">5</button>
+            <button id="six" class="number">6</button>
+            <button id="mult" class="function">x</button>
+
+            <button id="one" class="number">1</button>
+            <button id="two" class="number">2</button>
+            <button id="three" class="number">3</button>
+            <button id="sub" class="function">-</button>
+            
+
+            <button id="decimal" class="number">.</button>
+            <button id="zero" class="number">0</button>
+            <button id="equals" class="equals">=</button>
+            <button id="add" class="function">+</button>
+            
+        </div>
+        
+    </main>
+    <section >
+        <h2>History</h2>
+        <ul id="history-container">
+
+        </ul>
+    </section>
+
+
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.0/axios.min.js" integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
